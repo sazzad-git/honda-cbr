@@ -1,0 +1,17 @@
+.header-color{
+    background-color: #264653;
+}
+.panda-btn-buy-now{
+    background-color: #E76F51;
+    color: white;
+    border-radius: 4px;
+    padding: 9px 40px;
+    border: none;
+}
+.paragraph-color{
+    color: #E76F51;
+}
+.img-height{
+    height: 149px; 
+    width: 149px;
+}
