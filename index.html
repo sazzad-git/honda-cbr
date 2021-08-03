@@ -9,6 +9,9 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/a188c65edd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- custom style  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,7 +27,30 @@
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia
                         consequat
                         duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="panda-btn-buy-now">Purchase</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="panda-btn-buy-now" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Purchase</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title paragraph-color" id="exampleModalLabel">Hi There</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body paragraph-color">
+                                    Woohoo, you're visiting my first modal. thank you!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-5">
                     <img src="images/header-bike.png" class="d-block w-100" alt="...">
@@ -68,35 +94,67 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/user-1.png" class="rounded-circle m-auto card-img-top mt-4 mb-4 img-height" alt="...">
+                        <img src="images/user-1.png" class="rounded-circle m-auto card-img-top mt-4 mb-4 img-height"
+                            alt="...">
                         <div class="card-body text-center mb-3">
-                            <p class="card-text text-muted">Slate helps you see how <br> 
+
+                            <p class="card-text text-muted">Slate helps you see how <br>
                                 many more days you need <br>
                                 to work to reach your financial <br>
                                 goal for the month and year.</p>
-                                <p class="fs-5 font-weight-bold text-info">Regina Miles</p>
-                                <p class="fs-5 font-weight-bold">Banker</p>
+                            <div class="mb-2">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                            </div>
+                            <p class="fs-5 font-weight-bold text-info">Regina Miles</p>
+                            <p class="fs-5 font-weight-bold">Banker</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/user-2.png" class="rounded-circle m-auto card-img-top mt-4 mb-4 img-height" alt="...">
-                        <div class="card-body text-center mb-4">
-                            <h5 class="card-title">Suplly 350</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                        <img src="images/user-2.png" class="rounded-circle m-auto card-img-top mt-4 mb-4 img-height"
+                            alt="...">
+                        <div class="card-body text-center mb-3">
+
+                            <p class="card-text text-muted">Slate helps you see how <br>
+                                many more days you need <br>
+                                to work to reach your financial <br>
+                                goal for the month and year.</p>
+                            <div class="mb-2">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                            </div>
+                            <p class="fs-5 font-weight-bold text-info">Regina Miles</p>
+                            <p class="fs-5 font-weight-bold">Banker</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/user-3.jpg" class="rounded-circle m-auto card-img-top mt-4 img-height mb-4" alt="...">
-                        <div class="card-body text-center mb-4">
-                            <h5 class="card-title">Suplly 350</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                                
+                        <img src="images/user-3.jpg" class="rounded-circle m-auto card-img-top mt-4 img-height mb-4"
+                            alt="...">
+                        <div class="card-body text-center mb-3">
+
+                            <p class="card-text text-muted">Slate helps you see how <br>
+                                many more days you need <br>
+                                to work to reach your financial <br>
+                                goal for the month and year.</p>
+                            <div class="mb-2">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star empty"></i>
+                            </div>
+                            <p class="fs-5 font-weight-bold text-info">Regina Miles</p>
+                            <p class="fs-5 font-weight-bold">Banker</p>
                         </div>
                     </div>
                 </div>
@@ -110,18 +168,99 @@
             <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 mt-4">
                 <div class="col">
                     <div class="card border-0 h-100">
-                        <img src="images/faq.png" alt="">
+                        <img style="max-height: 424px; max-width: 431px;" src="images/faq.png" alt="">
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card border-0 h-100">
-
+                <div class="col ">
+                    <div>
+                        <div class="card card-body">
+                            <p>
+                                <a style="text-decoration: none;" class="fs-4 fw-bold text-dark dropdown-toggle inline-2-items"
+                                    data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                    What are the most important things I should
+                                    know <br> about riding a bike?
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the
+                                    mindset of “driving” your bike—not just “riding” your bike. This will help you be a
+                                    more focused and
+                                    legally
+                                    compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-body">
+                            <p>
+                                <a style="text-decoration: none;" class="fs-4 fw-bold text-dark dropdown-toggle"
+                                    data-bs-toggle="collapse" href="#collaps1" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    How can I tell if my helmet is old and I need a <br>
+                                    new one?
+                                </a>
+                            </p>
+                            <div class="collapse" id="collaps1">
+                                <div class="card card-body">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the
+                                    mindset of “driving” your bike—not just “riding” your bike. This will help you be a
+                                    more focused and
+                                    legally
+                                    compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-body">
+                            <p>
+                                <a style="text-decoration: none;" class="fs-4 fw-bold text-dark dropdown-toggle"
+                                    data-bs-toggle="collapse" href="#collaps2" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    My bike has been in storage is it safe to ride?
+                                </a>
+                            </p>
+                            <div class="collapse" id="collaps2">
+                                <div class="card card-body">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the
+                                    mindset of “driving” your bike—not just “riding” your bike. This will help you be a
+                                    more focused and
+                                    legally
+                                    compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-body">
+                            <p>
+                                <a style="text-decoration: none;" class="fs-4 fw-bold text-dark dropdown-toggle"
+                                    data-bs-toggle="collapse" href="#collaps3" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    What rules should I follow when riding my bike?
+                                </a>
+                            </p>
+                            <div class="collapse" id="collaps3">
+                                <div class="card card-body">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the
+                                    mindset of “driving” your bike—not just “riding” your bike. This will help you be a
+                                    more focused and
+                                    legally
+                                    compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
     </main>
+    <!-- Bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
